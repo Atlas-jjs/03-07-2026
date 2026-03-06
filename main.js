@@ -1,7 +1,7 @@
 import gsap from "https://cdn.jsdelivr.net/npm/gsap@3.14.1/index.js";
 
-let SLIDE_WIDTH = Math.min(300, window.innerWidth * 0.7);
-let SLIDE_HEIGHT = SLIDE_WIDTH * 1.375;
+const SLIDE_WIDTH = 200;
+const SLIDE_HEIGHT = 275;
 const SLIDE_GAP = 100;
 const SLIDE_COUNT = 21;
 const ARC_DEPTH = 200;
