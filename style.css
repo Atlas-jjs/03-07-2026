@@ -29,7 +29,7 @@ img {
 
 p#slide-title {
   position: absolute;
-  bottom: 30svh;
+  bottom: 20svh;
   left: 50%;
   transform: translateX(-50%);
   font-weight: 500;
@@ -62,5 +62,9 @@ p#slide-title {
   .header {
     display: flex;
     gap: 4rem;
+  }
+
+  p#slide-title {
+    bottom: 30svh;
   }
 }
